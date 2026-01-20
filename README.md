@@ -1,127 +1,89 @@
 # EV Nest Charging Usage and Revenue Analysis
 
-![Made with SQL](https://img.shields.io/badge/Made%20with-SQL-blue) ![Data Analysis](https://img.shields.io/badge/Focus-Data%20Analysis-green)
+!Made with SQL
+!Data Analysis
 
-## 📌 Project Overview
-Analyze electric vehicle (EV) charging sessions using SQL to uncover demand patterns, charger performance, and revenue drivers for a startup charging network.
+##  Project Overview
+This project analyzes EV charging sessions using SQL to explore how charging networks operate and generate revenue.  
+I created this project as part of my journey in building stronger data analysis skills and gaining real experience working with structured datasets.
 
-## ✅ Key Features
-- Realistic schema design for EV charging sessions
-- Business-focused SQL queries for revenue and usage insights
-- Visualizations for decision support
-- Insights aligned with energy and tech domain
+Right now, I am practicing Excel-based data analysis. This includes cleaning data, organizing information for reporting, and creating basic summaries and visuals. I am also learning core database and SQL concepts. This project helped me apply those developing skills to a realistic business scenario and learn through hands-on practice.
 
-## 📊 Visualizations
-### Revenue by City
-![Revenue by City](images/revenue_by_city.png)
-
-### Peak Charging Hours
-![Peak Charging Hours](images/peak_charging_hours.png)
-
-## 💡 Business Insights
-- **DC Fast chargers generate higher revenue per session**
-- **Evening hours show higher energy usage**
-- **Urban stations outperform lower traffic locations**
-
-## ▶ How to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/ev-nest-sql-analysis.git
-   ```
-2. Navigate to the `sql/` folder and run `ev_nest_project.sql` in your SQL environment.
-
-## 🛠 Skills Demonstrated
-- SQL (DDL, DML, Aggregations)
-- Data Analysis & Business Intelligence
-- Visualization using Python & Plotly
-
-## 📄 Resume Bullet
-- Built SQL-based data analysis project analyzing EV charging demand, pricing, and revenue using simulated operational data for a startup charging network.
-
-## 🚀 Future Enhancements
-- **Add Python ETL pipeline** to automate data ingestion
-- **Integrate Power BI dashboard** for interactive reporting
-- **Expand dataset** to include seasonal and geographic trends
-- **Predictive modeling** for demand forecasting
-
-## 🔗 Connect
-- [LinkedIn](https://www.linkedin.com/in/<your-profile>)
-- [Portfolio](https://<your-portfolio-link>)
+I do not know everything yet, but I am confident in what I am learning and open to growing with every project.
 
 ---
-# EV Nest Charging Usage and Revenue Analysis
 
-## Project Description
-Data analysis project using SQL to analyze electric vehicle charging sessions for a startup charging network. The analysis focuses on demand patterns, charger performance, and revenue drivers to support pricing and expansion decisions.
+## Key Features
+- SQL table design for EV charging session data  
+- Analysis of revenue, usage patterns, and charging behavior  
+- Python-based visualizations using Plotly  
+- Business-focused insights for decision making  
+- Beginner-friendly structure that reflects continuous learning
 
-## Database Setup
-```sql
-CREATE TABLE ev_charging_sessions (
-    session_id INT,
-    station_id INT,
-    city VARCHAR(50),
-    charger_type VARCHAR(20),
-    session_start TIMESTAMP,
-    session_end TIMESTAMP,
-    kwh_used DECIMAL(6,2),
-    price_per_kwh DECIMAL(4,2)
-);
+---
 
-INSERT INTO ev_charging_sessions VALUES
-(1, 101, 'Atlanta', 'Level 2', '2025-01-05 08:10', '2025-01-05 09:40', 18.5, 0.25),
-(2, 101, 'Atlanta', 'DC Fast', '2025-01-05 18:20', '2025-01-05 18:55', 32.0, 0.40),
-(3, 102, 'Houston', 'Level 2', '2025-01-06 12:00', '2025-01-06 14:10', 22.3, 0.23),
-(4, 103, 'Dallas', 'DC Fast', '2025-01-06 19:15', '2025-01-06 19:50', 35.7, 0.42),
-(5, 102, 'Houston', 'DC Fast', '2025-01-07 17:40', '2025-01-07 18:10', 28.9, 0.40);
-```
+## 📊 Visualizations
 
-## Core Analysis Queries
-- Revenue by station
-```sql
-SELECT station_id, SUM(kwh_used * price_per_kwh) AS total_revenue
-FROM ev_charging_sessions
-GROUP BY station_id
-ORDER BY total_revenue DESC;
-```
+### Revenue by City  
+!Revenue by City
 
-- Average session duration by charger type
-```sql
-SELECT charger_type,
-       AVG(EXTRACT(EPOCH FROM (session_end - session_start)) / 60) AS avg_minutes
-FROM ev_charging_sessions
-GROUP BY charger_type;
-```
+### Peak Charging Hours  
+!Peak Charging Hours
 
-- Peak charging hours
-```sql
-SELECT EXTRACT(HOUR FROM session_start) AS hour_of_day,
-       SUM(kwh_used) AS total_kwh
-FROM ev_charging_sessions
-GROUP BY hour_of_day
-ORDER BY total_kwh DESC;
-```
+---
 
-- Revenue by city
-```sql
-SELECT city,
-       SUM(kwh_used * price_per_kwh) AS city_revenue
-FROM ev_charging_sessions
-GROUP BY city
-ORDER BY city_revenue DESC;
-```
+## Business Insights
+Based on the sample dataset:
 
-## Visualizations
-### Revenue by City
-![Revenue by City](revenue_by_city.png)
+- DC Fast chargers generate higher revenue per session  
+- Evening hours show higher energy usage  
+- Urban stations outperform lower traffic locations  
 
-### Peak Charging Hours
-![Peak Charging Hours](peak_charging_hours.png)
+These insights help guide equipment placement, pricing, and decisions about where a charging network might expand next.
 
-## Insights
-- DC fast chargers generate higher revenue per session.
-- Evening hours show higher energy usage.
-- Urban stations outperform lower traffic locations.
+---
+
+##  How to Run This Project
+To explore the SQL and results yourself:
+
+1. Open the `sql/ev_nest_project.sql` file in your SQL environment  
+   (PostgreSQL, MySQL Workbench, DBeaver, and similar tools)  
+2. Run the script to create the table and insert the sample charging data.  
+3. Execute the analysis queries included in the script.  
+4. View the charts inside the `images` folder for clear visual insights.
+
+I kept the steps simple and beginner friendly so anyone, including other learners, can follow along.
+
+---
+
+## Skills Demonstrated
+- SQL fundamentals (creating tables, inserting data, grouping, aggregations)  
+- Excel-based data cleaning, organization, and reporting  
+- Data storytelling and insight communication  
+- Visualization using Python and Plotly  
+- Understanding of operational and business metrics  
+- Curiosity driven learning and practical application
+
+---
 
 ## Resume Bullet
-- Built SQL-based data analysis project analyzing EV charging demand, pricing, and revenue using simulated operational data for a startup charging network.
+- Built a SQL-based analytics project that explores EV charging demand and revenue. Applied foundational data analysis skills and interpreted results to support realistic business decisions.
+
+---
+
+## Future Enhancements
+As I continue learning, I plan to expand this project by adding:
+
+- A Python ETL pipeline for automated data loading  
+- A Power BI dashboard for interactive insight exploration  
+- Larger datasets to simulate real charging network patterns  
+- Predictive demand modeling as my skills grow
+
+---
+
+## Connect With Me
+If you would like to connect or learn more about my work:
+
+- **LinkedIn:** https://www.linkedin.com/in/ijeoma-oku  
+- **GitHub Profile:** https://github.com/ijeomaoku
 
