@@ -3,23 +3,23 @@ SQL-based EV charging analysis with revenue insights and visualization
 
 ![Made with SQL](https://img.shields.io/badge/Made%20with-SQL-blue) ![Data Analysis](https://img.shields.io/badge/Focus-Data%20Analysis-green)
 
-## 📌 Project Overview
+## Project Overview
 Analyze electric vehicle (EV) charging sessions using SQL to uncover demand patterns, charger performance, and revenue drivers for a startup charging network.
 
-## ✅ Key Features
+## Key Features
 - Realistic schema design for EV charging sessions
 - Business-focused SQL queries for revenue and usage insights
 - Visualizations for decision support
 - Insights aligned with energy and tech domain
 
-## 📊 Visualizations
+##  Visualizations
 ### Revenue by City
 ![Revenue by City](images/revenue_by_city.png)
 
 ### Peak Charging Hours
 ![Peak Charging Hours](images/peak_charging_hours.png)
 
-## 💡 Business Insights
+## Business Insights
 - **DC Fast chargers generate higher revenue per session**
 - **Evening hours show higher energy usage**
 - **Urban stations outperform lower traffic locations**
@@ -31,15 +31,15 @@ Analyze electric vehicle (EV) charging sessions using SQL to uncover demand patt
    ```
 2. Navigate to the `sql/` folder and run `ev_nest_project.sql` in your SQL environment.
 
-## 🛠 Skills Demonstrated
+## Skills Demonstrated
 - SQL (DDL, DML, Aggregations)
 - Data Analysis & Business Intelligence
 - Visualization using Python & Plotly
 
-## 📄 Resume Bullet
+## Resume Bullet
 - Built SQL-based data analysis project analyzing EV charging demand, pricing, and revenue using simulated operational data for a startup charging network.
 
-## 🚀 Future Enhancements
+## Future Enhancements
 - **Add Python ETL pipeline** to automate data ingestion
 - **Integrate Power BI dashboard** for interactive reporting
 - **Expand dataset** to include seasonal and geographic trends
