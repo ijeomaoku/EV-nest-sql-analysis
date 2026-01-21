@@ -1,8 +1,7 @@
 # EV-nest-sql-analysis
 SQL-based EV charging analysis with revenue insights and visualization
 
-!Made with SQL
-!Data Analysis
+![Made with SQL](https://img.shields.io/badge/Made%20with-SQL-blue) ![Data Analysis](https://img.shields.io/badge/Focus-Data%20Analysis-green)
 
 ## 🌱 Project Overview
 This project analyzes EV charging sessions using SQL to explore how charging networks operate and generate revenue.
