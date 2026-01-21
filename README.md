@@ -26,7 +26,7 @@ I do not know everything yet, but I am confident in what I am learning and open 
 
 ### Revenue by City
 
-!Revenue by City
+![Revenue by City](images/revenue_by_city.png)
 
 ### Peak Charging Hours
 
