@@ -24,6 +24,7 @@ Instead of using Python, all visualizations in this project were created in **Mi
 
 ## 📘 Excel Workbook
 A complete Excel workbook containing pivot-style tables and the original charts used in this project is available here:
+
 ![Download the Excel Pivot Analysis Workbook](excel/EV_Nest_Excel_PivotStyle.xlsx)
 
 
