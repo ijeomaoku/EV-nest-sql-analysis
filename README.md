@@ -23,8 +23,8 @@ Instead of using Python, all visualizations in this project were created in **Mi
 ![Peak Charging Hours](images/peak_charging_hours.png)
 
 ## 📘 Excel Workbook
-![A complete Excel workbook containing pivot-style tables and the original charts used in this project is available here:
-](excel/EV_Nest_Excel_PivotStyle.xlsx)
+A complete Excel workbook containing pivot-style tables and the original charts used in this project is available here:
+![Download the Excel Pivot Analysis Workbook](excel/EV_Nest_Excel_PivotStyle.xlsx)
 
 
 ## Business Insights
