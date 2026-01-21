@@ -16,6 +16,9 @@ Instead of using Python, all visualizations in this project were created in **Mi
 - Clean, professional GitHub project structure  
 
 ##  Visualizations
+> All project visualizations were created using Microsoft Excel Pivot-style charts and exported as PNG images for display.  
+> A full Excel workbook containing raw data, pivot summaries, and charts is available in the `excel/` folder.
+
 ### Revenue by City
 ![Revenue by City](images/revenue_by_city.png)
 
