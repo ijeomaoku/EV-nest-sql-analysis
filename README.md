@@ -22,6 +22,11 @@ Instead of using Python, all visualizations in this project were created in **Mi
 ### Peak Charging Hours
 ![Peak Charging Hours](images/peak_charging_hours.png)
 
+## 📘 Excel Workbook
+![A complete Excel workbook containing pivot-style tables and the original charts used in this project is available here:
+](excel/excel workbook)
+
+
 ## Business Insights
 - **DC Fast chargers generate higher revenue per session**
 - **Evening hours show higher energy usage**
