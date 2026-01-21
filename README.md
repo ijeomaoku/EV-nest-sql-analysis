@@ -60,6 +60,6 @@ To explore the SQL and results yourself:
 - **Predictive modeling** for demand forecasting
 
 ## Connect
-- [LinkedIn](https://[www.linkedin.com/in/<your-profile](https://www.linkedin.com/in/ijeoma-oku?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)>)
+- [LinkedIn](https://www.linkedin.com/in/ijeoma-oku?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
 - [Portfolio](https://<your-portfolio-link>)
 
