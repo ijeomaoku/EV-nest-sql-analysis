@@ -24,7 +24,7 @@ Analyze electric vehicle (EV) charging sessions using SQL to uncover demand patt
 - **Evening hours show higher energy usage**
 - **Urban stations outperform lower traffic locations**
 
-## 🛠 How to Run This Project
+## How to Run This Project
 To explore the SQL and results yourself:
 
 1. Clone this repository:
