@@ -24,12 +24,17 @@ Analyze electric vehicle (EV) charging sessions using SQL to uncover demand patt
 - **Evening hours show higher energy usage**
 - **Urban stations outperform lower traffic locations**
 
-## ▶ How to Run
+## 🛠 How to Run This Project
+To explore the SQL and results yourself:
+
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/ev-nest-sql-analysis.git
-   ```
-2. Navigate to the `sql/` folder and run `ev_nest_project.sql` in your SQL environment.
+   git clone https://github.com/ijeomaoku/ev-nest-sql-analysis.git
+
+2. Open the sql/ folder and run ev_nest_project.sql in your SQL environment
+(PostgreSQL, MySQL Workbench, DBeaver, etc.).
+3. Execute the analysis queries included in the script.
+
 
 ## Skills Demonstrated
 - SQL (DDL, DML, Aggregations)
