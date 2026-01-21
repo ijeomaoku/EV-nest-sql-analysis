@@ -9,10 +9,11 @@ This project analyzes electric vehicle (EV) charging sessions using SQL to explo
 Instead of using Python, all visualizations in this project were created in **Microsoft Excel**, using pivot-style summary tables and charts. This demonstrates practical skills in both SQL (for analysis) and Excel (for business-focused reporting), which are essential tools for entry-level data analyst roles.
 
 ## Key Features
-- Realistic schema design for EV charging sessions
-- Business-focused SQL queries for revenue and usage insights
-- Visualizations for decision support
-- Insights aligned with energy and tech domain
+- SQL analysis of EV charging session data  
+- Revenue, usage pattern, and peak-hour calculations  
+- Visualizations created entirely in **Microsoft Excel**  
+- Pivot-style summary tables for business insights  
+- Clean, professional GitHub project structure  
 
 ##  Visualizations
 ### Revenue by City
