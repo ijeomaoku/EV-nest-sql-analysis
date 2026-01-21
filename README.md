@@ -3,43 +3,49 @@ SQL-based EV charging analysis with revenue insights and visualization
 
 ![Made with SQL](https://img.shields.io/badge/Made%20with-SQL-blue) ![Data Analysis](https://img.shields.io/badge/Focus-Data%20Analysis-green)
 
-## 🌱 Project Overview
-This project analyzes EV charging sessions using SQL to explore how charging networks operate and generate revenue.
-I created this project as part of my journey in building stronger data analysis skills and gaining real experience working with structured datasets.
-
-Right now, I am practicing Excel-based data analysis. This includes cleaning data, organizing information for reporting, and creating basic summaries and visuals. I am also learning core database and SQL concepts. This project helped me apply those developing skills to a realistic business scenario and learn through hands-on practice.
-
-I do not know everything yet, but I am confident in what I am learning and open to growing with every project.
-
----
+## 📌 Project Overview
+Analyze electric vehicle (EV) charging sessions using SQL to uncover demand patterns, charger performance, and revenue drivers for a startup charging network.
 
 ## ✅ Key Features
-- SQL table design for EV charging session data
-- Analysis of revenue, usage patterns, and charging behavior
-- Python-based visualizations using Plotly
-- Business-focused insights for decision making
-- Beginner-friendly structure that reflects continuous learning
-
----
+- Realistic schema design for EV charging sessions
+- Business-focused SQL queries for revenue and usage insights
+- Visualizations for decision support
+- Insights aligned with energy and tech domain
 
 ## 📊 Visualizations
-
 ### Revenue by City
-
 ![Revenue by City](images/revenue_by_city.png)
 
 ### Peak Charging Hours
-
-!Peak Charging Hours
-
----
+![Peak Charging Hours](images/peak_charging_hours.png)
 
 ## 💡 Business Insights
-Based on the sample dataset:
-- DC Fast chargers generate higher revenue per session
-- Evening hours show higher energy usage
-- Urban stations outperform lower traffic locations
+- **DC Fast chargers generate higher revenue per session**
+- **Evening hours show higher energy usage**
+- **Urban stations outperform lower traffic locations**
 
-These insights help guide equipment placement, pricing, and decisions about where a charging network might expand next.
+## ▶ How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/<your-username>/ev-nest-sql-analysis.git
+   ```
+2. Navigate to the `sql/` folder and run `ev_nest_project.sql` in your SQL environment.
 
----
+## 🛠 Skills Demonstrated
+- SQL (DDL, DML, Aggregations)
+- Data Analysis & Business Intelligence
+- Visualization using Python & Plotly
+
+## 📄 Resume Bullet
+- Built SQL-based data analysis project analyzing EV charging demand, pricing, and revenue using simulated operational data for a startup charging network.
+
+## 🚀 Future Enhancements
+- **Add Python ETL pipeline** to automate data ingestion
+- **Integrate Power BI dashboard** for interactive reporting
+- **Expand dataset** to include seasonal and geographic trends
+- **Predictive modeling** for demand forecasting
+
+## 🔗 Connect
+- [LinkedIn](https://www.linkedin.com/in/<your-profile>)
+- [Portfolio](https://<your-portfolio-link>)
+
