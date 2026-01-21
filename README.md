@@ -4,7 +4,9 @@ SQL-based EV charging analysis with revenue insights and visualization
 ![Made with SQL](https://img.shields.io/badge/Made%20with-SQL-blue) ![Data Analysis](https://img.shields.io/badge/Focus-Data%20Analysis-green)
 
 ## Project Overview
-Analyze electric vehicle (EV) charging sessions using SQL to uncover demand patterns, charger performance, and revenue drivers for a startup charging network.
+This project analyzes electric vehicle (EV) charging sessions using SQL to explore usage patterns, charger performance, and revenue across different cities. The goal is to practice SQL for data analysis while combining it with Excel for reporting and visualization.
+
+Instead of using Python, all visualizations in this project were created in **Microsoft Excel**, using pivot-style summary tables and charts. This demonstrates practical skills in both SQL (for analysis) and Excel (for business-focused reporting), which are essential tools for entry-level data analyst roles.
 
 ## Key Features
 - Realistic schema design for EV charging sessions
@@ -39,7 +41,7 @@ To explore the SQL and results yourself:
 ## Skills Demonstrated
 - SQL (DDL, DML, Aggregations)
 - Data Analysis & Business Intelligence
-- Visualization using Python & Plotly
+- Visualization using Mircosoft Excel
 
 ## Resume Bullet
 - Built SQL-based data analysis project analyzing EV charging demand, pricing, and revenue using simulated operational data for a startup charging network.
