@@ -24,11 +24,11 @@ I do not know everything yet, but I am confident in what I am learning and open 
 
 ## 📊 Visualizations
 
-### Revenue by City  
+### Revenue by City
 
 !Revenue by City
 
-### Peak Charging Hours 
+### Peak Charging Hours
 
 !Peak Charging Hours
 
