@@ -1,4 +1,5 @@
-# EV Nest Charging Usage and Revenue Analysis
+# EV-nest-sql-analysis
+SQL-based EV charging analysis with revenue insights and visualization
 
 !Made with SQL
 !Data Analysis
