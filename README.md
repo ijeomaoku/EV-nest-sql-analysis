@@ -61,5 +61,5 @@ To explore the SQL and results yourself:
 
 ## Connect
 - [LinkedIn](https://www.linkedin.com/in/ijeoma-oku?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
-- [Portfolio](https://<your-portfolio-link>)
+- [Portfolio](https://github.com/ijeomaoku)
 
