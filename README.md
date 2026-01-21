@@ -45,7 +45,7 @@ Analyze electric vehicle (EV) charging sessions using SQL to uncover demand patt
 - **Expand dataset** to include seasonal and geographic trends
 - **Predictive modeling** for demand forecasting
 
-## 🔗 Connect
+## Connect
 - [LinkedIn](https://www.linkedin.com/in/<your-profile>)
 - [Portfolio](https://<your-portfolio-link>)
 
